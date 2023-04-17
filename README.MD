@@ -18,19 +18,21 @@ Quake 2
 
 Installation and Usage
 
-    Clone the repository or download the source code as a zip file.
-    Extract the files to a directory of your choice.
-    Open a terminal and navigate to the directory where you extracted the files.
-    Make the eqs.sh script executable by running chmod +x eqs.sh.
-    Run the script by running ./eqs.sh in the terminal.
+Clone the repository
+
+```git clone https://github.com/okavatti/eqs```
+
+Open a terminal and navigate to the directory.
+
+```cd eqs```
+
+Make the eqs.sh script executable by running ```chmod +x eqs.sh.```
+Run the script by running ```./eqs.sh``` in the terminal.
 
 When running the script, you will be asked which game you want to play. After selecting a game, you will be prompted to enter the location of the game's executable file. You should enter the location of the file itself, not the directory it is located in. Finally, you will be asked which mod you want to use.
-License
 
-This project is open-source and licensed under the terms of the GPLv3 license. You are free to fork the repository and contribute to the project as you see fit.
-Notes
 
-    If you are using Windows, it is recommended that you use the Steam version or Darkplaces instead of EQS.
-    Before using the script, it is recommended that you read the readme.txt file located in the same directory as the script.
-    This script has been tested on Linux, macOS, FreeBSD, OpenBSD, and NetBSD. It may work on other UNIX-like systems as well.
-    If your system is not supported, the script will inform you and exit.
+If you are using Windows, it is recommended that you use the Steam version or Darkplaces instead of EQS.
+Before using the script, it is recommended that you read the ```readme.txt``` file located in the same directory as the script.
+This script has been tested on Linux, macOS, FreeBSD, OpenBSD, and NetBSD. It may work on other UNIX-like systems as well.
+If your system is not supported, the script will inform you and exit.
