@@ -100,6 +100,10 @@ READMEPLEASE() {
     " >README.txt
 }
 
+gay() {
+    echo ""
+}
+
 READMEPLEASE # just calling the above function before we inevitably fuck it up later
 
 show_license() {
